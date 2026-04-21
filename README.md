@@ -1,4 +1,4 @@
-# DocReady — eSeva Document Formatter
+# DocReady —  Document Formatter
 
 A web app that lets computer centers upload scanned images and instantly get government-ready files. Reduces per-user processing time from ~10 minutes to ~10 seconds.
 
