@@ -1,7 +1,7 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "DocReady - eSeva Document Formatter",
+  title: "DocReady -  Document Formatter",
   description: "Upload, process, and download government-ready documents in seconds",
 };
 

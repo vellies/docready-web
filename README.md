@@ -1,6 +1,13 @@
-# DocReady —  Document Formatter
+# DocReady — eSeva Document Formatter
 
 A web app that lets computer centers upload scanned images and instantly get government-ready files. Reduces per-user processing time from ~10 minutes to ~10 seconds.
+
+## Live URLs
+
+| Service | URL |
+|---|---|
+| Frontend | https://docready-web.vercel.app |
+| Backend API | https://docready-api.onrender.com |
 
 ## What it does
 
@@ -54,7 +61,7 @@ doc-ready/
 ```bash
 cd docready-api
 npm install
-npm run dev       # starts with nodemon on default port
+npm run dev       # starts on http://localhost:4000
 ```
 
 ### Frontend
@@ -62,8 +69,16 @@ npm run dev       # starts with nodemon on default port
 ```bash
 cd docready-web
 npm install
-npm run dev       # starts Next.js at http://localhost:3000
+npm run dev       # starts on http://localhost:3000
 ```
+
+The frontend reads `NEXT_PUBLIC_API_URL` for the backend. Create `.env.local` for local dev:
+
+```env
+NEXT_PUBLIC_API_URL=http://localhost:4000
+```
+
+For production, set `NEXT_PUBLIC_API_URL=https://docready-api.onrender.com` in your deployment environment.
 
 ## Repositories
 

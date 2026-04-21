@@ -54,7 +54,7 @@ export default function Home() {
     <main className="max-w-3xl mx-auto px-4 py-10">
       <div className="mb-8 text-center">
         <h1 className="text-3xl font-bold text-gray-900">DocReady</h1>
-        <p className="text-gray-500 mt-1">eSeva Document Formatter — Upload → Preset → Download</p>
+        <p className="text-gray-500 mt-1"> Document Formatter — Upload → Preset → Download</p>
       </div>
 
       {!results.length && (
